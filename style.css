@@ -50,7 +50,7 @@ Body {
 .base img {
 	margin-left: 20px;
 	width: 24vh;
-	height: 32vh;
+	height: 33vh;
 	border: dotted #93443f;
 	align-self: center;
 }
@@ -72,10 +72,13 @@ Body {
 	border: dotted #93443f;
 	padding: 5px;
 	font-size: 2vh;
-	height: 33vh;
+	height: 32vh;
 	max-width: 29%;
 	margin-right: 20px;
 	align-self: center;
+}
+.awards img {
+	height: 28vh;
 }
 .additional {
 	padding: 5 px;
