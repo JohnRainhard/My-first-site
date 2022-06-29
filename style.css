@@ -1,0 +1,91 @@
+Body {
+	max-width: 1280px;
+	min-width: 854px;
+	margin: 0 auto;
+	font-family: 'Verdana';
+	display: flex;
+	flex-direction: column;
+}
+* {
+	margin: 0;
+}
+.header {
+	line-height: 3.5vh;
+	background-color: #93443f;
+	color: #fff;
+}
+.header img {
+	height: 15vh;
+	margin: 0 10px 0 10px;
+	float: left;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+}
+.content h1 {
+	text-align: center;
+}
+.main {
+	margin-top: 5px;
+	padding: 7.5px;
+	line-height: 3.5vh;
+	display: flex;
+	justify-content: center;
+}
+@media screen and (max-width: 1109px){
+	.main {
+		flex-direction: column;
+	}
+}
+.base {
+	display: flex;
+	justify-content: center;
+}
+@media screen and (max-width: 1000px){
+	.base {
+		flex-direction: column;
+	}
+}
+.base img {
+	margin-left: 20px;
+	width: 24vh;
+	height: 32vh;
+	border: dotted #93443f;
+	align-self: center;
+}
+.bio {
+	font-size: 1.4vh;
+	padding: 10px 20px 10px 20px;
+	height: 31vh;
+	width: 41vh;
+	border: dotted #93443f;
+	align-self: center;
+}
+.parameter {
+	float: left;
+}
+.argument {
+	float: right;
+}
+.activity {
+	border: dotted #93443f;
+	padding: 5px;
+	font-size: 2vh;
+	height: 33vh;
+	max-width: 29%;
+	margin-right: 20px;
+	align-self: center;
+}
+.additional {
+	padding: 5 px;
+	margin: 10px 100px 10px 100px;
+	font-size: 2vh;
+
+}
+.footer {
+	width: 100%;
+	height: 25px;
+	background-color: #93443f;
+	color: #fff;
+}
