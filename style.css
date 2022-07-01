@@ -73,12 +73,12 @@ Body {
 	padding: 5px;
 	font-size: 2vh;
 	height: 32vh;
-	max-width: 29%;
+	max-width: 372px;
 	margin-right: 20px;
 	align-self: center;
 }
 .awards img {
-	height: 28vh;
+	height: 25vh;
 }
 .additional {
 	padding: 5 px;
@@ -87,6 +87,7 @@ Body {
 
 }
 .footer {
+	text-align: center;
 	width: 100%;
 	height: 25px;
 	background-color: #93443f;
